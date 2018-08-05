@@ -1,2 +1,5 @@
-# accessmath-icfhr2018
-Lecture Video Summarization by Extracting Handwritten Content from Whiteboards
+# Lecture Video Summarization by Extracting Handwritten Content from Whiteboards
+
+Online lecture videos are a valuable resource for students across the world. The ability to find videos based on their content could make them even more useful. Methods for automatic extraction of this content reduce the amount of manual effort required to make indexing and retrieval of such videos possible. We adapt a deep learning based method for scene text detection, for the purpose of detection of handwritten text, math expressions and sketches in lecture videos. We detect handwritten elements on the whiteboard to generate a summary of all content over time in the lecture, while also dealing with occluded content due to motion of the lecturer. We train, test on the publicly available AccessMath lecture video dataset and evaluate our framework on the basis of number of summary frames, as well as recall and precision of all whiteboard content in the set of test lecture videos. We found that our method increases the precision of the state-of-the-art while there is potential to increase recall as well. We have added to the existing ground truth in the AccessMath dataset by providing timestamp-based, semantically meaningful bounding box annotations for the handwritten whiteboard content, which has been released.
+
+
