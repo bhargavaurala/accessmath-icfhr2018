@@ -168,6 +168,7 @@ class ConsoleUIProcess:
                         MiscHelper.dump_save(results[out_idx], self.temp_dir + '/' + temp_prefix + lecture_file)
 
     def start_image_list_preprocessing(self, src_dir, get_worker_function, get_results_function,
+                                       img_extension='.png',
                                        frames_limit=0,
                                        verbose=False):
         for lecture in self.database.lectures:
@@ -181,7 +182,8 @@ class ConsoleUIProcess:
             worker = get_worker_function(self)
 
             # execute the actual process ....
-            processor = ImageListProcessor('{}{}'.format(src_dir, self.current_lecture.title))
+            processor = ImageListProcessor('{}{}'.format(src_dir, self.current_lecture.title),
+                                           img_extension=img_extension)
             if verbose:
                 print('Opening exported image folder {}{}'.format(src_dir, self.current_lecture.title))
             if "forced_width" in lecture.parameters:

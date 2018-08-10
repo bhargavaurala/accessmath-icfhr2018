@@ -29,12 +29,13 @@ def main():
         return
 
     fps = 1
-    process.start_video_processing(fps, get_worker, get_results, 0, True)
-    # process.start_image_list_preprocessing(src_dir=Parameters.Output_FrameExport,
-    #                                        get_worker_function=get_worker,
-    #                                        get_results_function=get_results,
-    #                                        frames_limit=0,
-    #                                        verbose=True)
+    # process.start_video_processing(fps, get_worker, get_results, 0, True)
+    process.start_image_list_preprocessing(src_dir=Parameters.Output_FrameExport,
+                                           get_worker_function=get_worker,
+                                           get_results_function=get_results,
+                                           img_extension=Parameters.Output_FrameExport_ImgExtension,
+                                           frames_limit=0,
+                                           verbose=True)
     print("finished")
 
 if __name__ == "__main__":

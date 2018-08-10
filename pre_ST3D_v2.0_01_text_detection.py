@@ -33,6 +33,7 @@ def main():
     process.start_image_list_preprocessing(src_dir=Parameters.Output_FrameExport,
                                            get_worker_function=get_worker,
                                            get_results_function=get_results,
+                                           img_extension=Parameters.Output_FrameExport_ImgExtension,
                                            frames_limit=0,
                                            verbose=True)
     print("finished")

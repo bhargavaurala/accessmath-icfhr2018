@@ -1,5 +1,4 @@
-
-#============================================================================
+# ============================================================================
 # Global file with fixed parameter values for AccessMath
 #
 # Kenny Davila
@@ -8,25 +7,26 @@
 #       - March 2017
 #       - June 2017
 #
-#============================================================================
+# ============================================================================
 
 import numpy as np
 
+
 class Parameters:
     # video sampling
-    Sampling_FPS = 1.0 # 1.0
+    Sampling_FPS = 1.0  # 1.0
 
     # binarization
-    Bin_method = 4 # New background subtraction
+    Bin_method = 4  # New background subtraction
 
     Bin_dark_background = False
     Bin_sigma_color = 4.0
     Bin_sigma_space = 4.0
-    Bin_bluring_ksize = 3 # 3
-    Bin_bgsub_threshold = 0.89 # 0.89
-    Bin_min_pixels = 4 # 6
+    Bin_bluring_ksize = 3  # 3
+    Bin_bgsub_threshold = 0.89  # 0.89
+    Bin_min_pixels = 4  # 6
 
-    Bin_disk_size = 14 # 14
+    Bin_disk_size = 14  # 14
     Bin_chalk_threshold = 20
 
     # CC stability and CC groups
@@ -34,13 +34,13 @@ class Parameters:
     CCStab_stability_min_recall = 0.925
     CCStab_stability_min_precision = 0.925
     CCStab_min_times = 3
-    CCStab_max_gap = 85 # 85
+    CCStab_max_gap = 85  # 85
     CCGroup_temporal_window = 5
     CCGroup_min_image_threshold = 0.5
 
     # Background Removal
     # (based method using CC's and thresholds)
-    BGRem_high_threshold = 0.80 # 0.80
+    BGRem_high_threshold = 0.80  # 0.80
     BGRem_low_threshold = 0.40  # 0.40
     BGRem_min_bg_cc_size = 200
     BGRem_close_radius = 5
@@ -53,13 +53,13 @@ class Parameters:
     BGRem_KNN_min_region_size = 0.10
 
     # Video Segmentation
-    VSeg_method = 2 # 1 - Sums, 2 - Conflicts
+    VSeg_method = 2  # 1 - Sums, 2 - Conflicts
     VSeg_Sum_min_segment = 10
-    VSeg_Sum_min_erase_ratio = 0.05 # 0.15
-    VSeg_Conf_min_conflicts = 3    # minimum conflicst to accept split
-    VSeg_Conf_min_split = 50       # minimum segment length to consider splitting it
-    VSeg_Conf_min_len = 25       # minimum segment length to accept split. (related to VSeg_Conf_min_split)
-    VSeg_Conf_weights = 0          # 0 - simple count, 1 - matched pixels, 2 - unmatched pixels
+    VSeg_Sum_min_erase_ratio = 0.05  # 0.15
+    VSeg_Conf_min_conflicts = 3  # minimum conflicst to accept split
+    VSeg_Conf_min_split = 50  # minimum segment length to consider splitting it
+    VSeg_Conf_min_len = 25  # minimum segment length to accept split. (related to VSeg_Conf_min_split)
+    VSeg_Conf_weights = 0  # 0 - simple count, 1 - matched pixels, 2 - unmatched pixels
     VSeg_Conf_weights_time = False  # multiply weights by the size of the gap
     # Keyframe extraction
     KFExt_min_length = 5
@@ -76,12 +76,12 @@ class Parameters:
     SBDet_color_combined_threshold = 0.01
 
     # Log Motion Difference
-    LMot_min_percentile = 5 # 25
+    LMot_min_percentile = 5  # 25
 
     # ROI Detection
     ROIDet_fps = 0.1
     ROIDet_temporal_blur_K = 11
-    ROIDet_bin_threshold = 5 # 8
+    ROIDet_bin_threshold = 5  # 8
     ROIDet_edge_min_threshold = 30
     ROIDet_edge_max_threshold = 50
     ROIDet_Hough_rho = 1
@@ -116,7 +116,8 @@ class Parameters:
 
     Output_ROI_Detection = "ROI_mask_"
 
-    Output_FrameExport = "AccessMathVOC/" # make sure to add a trailing backslash if you change this
+    Output_FrameExport = "AccessMathVOC/"  # make sure to add a trailing backslash if you change this
+    Output_FrameExport_ImgExtension = 'jpg'  # Extension, without leading dot
     Output_PersonDetection = "person_detection_"
     Output_TextDetection = "text_detection_"
     Output_TDStability = "td_bboxes_stability_"
@@ -130,12 +131,12 @@ class Parameters:
 
     MLBin_train_workers = 7
 
-    MLBin_patch_size = 7    
+    MLBin_patch_size = 7
     MLBin_rf_n_trees = 16
     MLBin_rf_max_depth = 12
-    MLBin_rf_max_features = 32    
+    MLBin_rf_max_features = 32
     MLBin_classifier_file = "output/classifier/RF_T16_D12_F32_w7x7.dat"
-        
+
     MLBin_sigma_color = 13.5
     MLBin_sigma_space = 4.0
     MLBin_median_blur_k = 33
@@ -143,9 +144,9 @@ class Parameters:
     MLBin_hysteresis = True
 
     TDStab_min_comb_box_ratio = 0.5
-    TDStab_min_temp_box_IOU = 0.5        # minimum spatial IOU to combine boxes across time
+    TDStab_min_temp_box_IOU = 0.5  # minimum spatial IOU to combine boxes across time
     TDStab_max_temporal_gap = 85
-    TDStab_min_confidence = 0.65 # 0.65
+    TDStab_min_confidence = 0.65  # 0.65
     TDStab_min_times = 3
     TDGroup_temporal_window = 5
     TDBin_ML_binarization = False

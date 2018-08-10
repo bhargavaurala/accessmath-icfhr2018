@@ -71,8 +71,9 @@ class ImageListGenerator(object):
         return self.metadata[str(self.frameIDs[self.curr_idx])][prop]
 
 class ImageListProcessor:
-    def __init__(self, src_dir, frames_per_second=-1):
+    def __init__(self, src_dir, frames_per_second=-1, img_extension='.png'):
         self.src_dir = src_dir
+        self.img_extension = img_extension
         self.frames_per_second = frames_per_second
         self.forced_width = None
         self.forced_height = None
@@ -103,7 +104,7 @@ class ImageListProcessor:
         # open video...
         try:
             print(self.src_dir)
-            capture =  ImageListGenerator('{}/{}'.format(self.src_dir, 'JPEGImages'), 'jpg')
+            capture =  ImageListGenerator('{}/{}'.format(self.src_dir, 'JPEGImages'), self.img_extension)
         except Exception as e:
             # error loading
             print(e)
