@@ -116,7 +116,7 @@ class Parameters:
 
     Output_ROI_Detection = "ROI_mask_"
 
-    Output_FrameExport = "AccessMathVOC/"
+    Output_FrameExport = "AccessMathVOC/" # make sure to add a trailing backslash if you change this
     Output_PersonDetection = "person_detection_"
     Output_TextDetection = "text_detection_"
     Output_TDStability = "td_bboxes_stability_"

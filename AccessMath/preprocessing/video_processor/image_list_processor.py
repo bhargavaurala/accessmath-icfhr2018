@@ -16,7 +16,7 @@ class ImageListGenerator(object):
                               'frame_idx': 0,
                               'abs_time': 0.0,
                               'video_idx': 0}
-        self.frameIDs = map(int, self.metadata.keys())
+        self.frameIDs = list(map(int, self.metadata.keys()))
         self.frameIDs.sort()
         print('Number of Frames', len(self.frameIDs) - 1)
         im = cv2.imread('{}/{}.{}'.format(self.folder, self.frameIDs[1], self.im_ext))

@@ -181,9 +181,9 @@ class ConsoleUIProcess:
             worker = get_worker_function(self)
 
             # execute the actual process ....
-            processor = ImageListProcessor('{}/{}'.format(src_dir, self.current_lecture.title))
+            processor = ImageListProcessor('{}{}'.format(src_dir, self.current_lecture.title))
             if verbose:
-                print('Opening exported image folder {}/{}'.format(src_dir, self.current_lecture.title))
+                print('Opening exported image folder {}{}'.format(src_dir, self.current_lecture.title))
             if "forced_width" in lecture.parameters:
                 processor.force_resolution(lecture.parameters["forced_width"], lecture.parameters["forced_height"])
             processor.doProcessing(worker, frames_limit, verbose)  # 0
