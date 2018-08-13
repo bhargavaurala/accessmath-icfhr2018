@@ -4,12 +4,12 @@ Online lecture videos are a valuable resource for students across the world. The
 
 ![Our methodology](Methodology.png)
 
-More details can be found in our [paper]().
+More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlvwc762a65tsimmnyn7d2).
 
 ## To reproduce the results in the paper:
 
 - Download AccessMath Dataset
-[Link]()
+[Link](https://buffalo.box.com/s/usa30o2o0oojcslfrkxfyogvbqdedktj)
 
 - Download our Handwritten Content Detector [model]() and structure [file]() and place in `models/text_detection`.
 
