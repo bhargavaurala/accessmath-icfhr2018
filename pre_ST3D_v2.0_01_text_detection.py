@@ -7,7 +7,7 @@ from AccessMath.util.deep_model_loader import CaffeModelLoader
 
 mdl = CaffeModelLoader(
     model_def=Parameters.Model_TextDetection+'deploy.prototxt',
-    model_weights=Parameters.Model_TextDetection+'VGG_text_longer_conv_300x300_iter_10000.caffemodel')
+    model_weights=Parameters.Model_TextDetection+'v2.2_VGG_text_longer_conv_300x300_iter_10000.caffemodel')
 
 def get_worker(process):
     worker = TextDetection(net=mdl.getModel(),
