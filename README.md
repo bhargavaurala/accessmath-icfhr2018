@@ -11,7 +11,7 @@ More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlv
 - Download AccessMath Dataset
 [Link](https://buffalo.box.com/s/usa30o2o0oojcslfrkxfyogvbqdedktj)
 
-- Download our Handwritten Content Detector [model]() and structure [file]() and place in `models/text_detection`.
+- Download our Handwritten Content Detector [model](https://buffalo.box.com/s/elz4wj1favsa24apcjiz0co7ash5qry6) and structure [file]() and place in `models/text_detection`.
 
 - Run the following scripts:
 
