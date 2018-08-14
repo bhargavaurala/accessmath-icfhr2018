@@ -8,8 +8,7 @@ More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlv
 
 ## To reproduce the results in the paper:
 
-- Download AccessMath Dataset
-[Link](https://buffalo.box.com/s/usa30o2o0oojcslfrkxfyogvbqdedktj)
+- Download AccessMath [Dataset](https://buffalo.box.com/s/usa30o2o0oojcslfrkxfyogvbqdedktj) and copy into project root.
 
 - Download our Handwritten Content Detector [model](https://buffalo.box.com/s/elz4wj1favsa24apcjiz0co7ash5qry6) and structure [file]() and place in `models/text_detection`.
 
@@ -25,7 +24,9 @@ More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlv
 
 - Run the following scripts:
 
--- 
-
+-- Export video into still frames for generating training samples for text detector by running 
+```
+python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml
+```
 -- 
 
