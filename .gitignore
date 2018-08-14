@@ -1,3 +1,4 @@
 .idea*
 .vscode*
 *.pyc
+test_data/lectures/*
