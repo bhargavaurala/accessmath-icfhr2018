@@ -3,7 +3,7 @@ import sys
 from AccessMath.preprocessing.config.parameters import Parameters
 from AccessMath.preprocessing.user_interface.console_ui_process import ConsoleUIProcess
 from AccessMath.preprocessing.video_worker.text_detection import TextDetection
-from AccessMath.util.deep_model_loader import CaffeModelLoader
+from AccessMath.util.caffe_model_loader import CaffeModelLoader
 
 mdl = CaffeModelLoader(
     model_def=Parameters.Model_TextDetection+'deploy.prototxt',

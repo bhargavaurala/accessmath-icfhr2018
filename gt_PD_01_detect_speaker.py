@@ -3,7 +3,7 @@ import sys
 from AccessMath.preprocessing.config.parameters import Parameters
 from AccessMath.preprocessing.user_interface.console_ui_process import ConsoleUIProcess
 from AccessMath.preprocessing.video_worker.person_detection import PersonDetection
-from AccessMath.util.deep_model_loader import TorchModelLoader
+from AccessMath.util.torch_model_loader import TorchModelLoader
 
 from ssd import build_ssd
 
