@@ -95,6 +95,9 @@ class Parameters:
     # Background removal using detected ROI
     ROIBGRem_min_overlap = 1.0
 
+    # GPU
+    GPU_TextDetection = 0
+
     # model files
     Model_PersonDetection = 'models/person_detection/'
     Model_TextDetection = 'models/text_detection/'
