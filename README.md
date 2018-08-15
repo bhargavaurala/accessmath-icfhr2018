@@ -68,7 +68,7 @@ export PYTHONPATH=/path/to/ssd.pytorch/:$PYTHONPATH
 
 -- Export video into still frames for generating training samples for text detector by running 
 ```
-python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml
+python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d "training, testing"
 ```
 -- Generate person detection bounding boxes on training set and add to annotations
 
