@@ -9,7 +9,7 @@ def get_worker(process):
     # TODO: this should have a default in Parameters class + a parameter to override at run-time
     export_mode = Parameters.Output_FrameExport_Mode
     text_exporter = TextAnnotationExporter.FromAnnotationXML(export_mode, process.database, process.current_lecture,
-                                                             export_dir, export_images=True)
+                                                             export_dir, export_images=False)
 
     print(" -> Total Text-regions found: {0:d}".format(len(text_exporter.text_objects)))
 
