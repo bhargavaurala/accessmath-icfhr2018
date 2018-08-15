@@ -59,7 +59,7 @@ python pre_ST3D_v2.0_08_generate_summary.py test_data/databases/db_AccessMath201
 
 - Download the SSD [model](https://buffalo.box.com/s/3rklcvppkuw63jkp4538nbf6u6gj9zqm) for VOC object class detection and place in `models/person_detection`
 
-- Clone the [SSD PyTorch] repository and set it up. Add this directory to `$PYTHONPATH`
+- Clone the [SSD PyTorch](https://github.com/amdegroot/ssd.pytorch) repository and set it up. Add this directory to `$PYTHONPATH`
 ```
 export PYTHONPATH=/path/to/ssd.pytorch/:$PYTHONPATH
 ```
