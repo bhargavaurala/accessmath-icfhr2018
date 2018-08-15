@@ -1,0 +1,245 @@
+<Annotations>
+  <Database>AccessMath2015</Database>
+  <Lecture>lecture_15</Lecture>
+  <Filename>output/annotations/AccessMath2015_lecture_15.xml</Filename>
+  <VideoFiles>
+  <VideoFile>test_data/lectures/Lecture_15/AccessMath_Lecture_15_part1.mp4</VideoFile>
+  <VideoFile>test_data/lectures/Lecture_15/AccessMath_Lecture_15_part2.mp4</VideoFile>
+  <VideoFile>test_data/lectures/Lecture_15/AccessMath_Lecture_15_part3.mp4</VideoFile>
+  </VideoFiles>
+  <DrawingInfo>
+     <Canvas>
+         <X>10</X>
+         <Y>60</Y>
+         <W>1040</W>
+         <H>620</H>
+     </Canvas>
+     <Player>
+         <ControlArea>
+             <X>50</X>
+             <Y>100</Y>
+             <W>960</W>
+             <H>540</H>
+         </ControlArea>
+         <RenderArea>
+             <X>50.0</X>
+             <Y>100.0</Y>
+             <W>960</W>
+             <H>540</H>
+         </RenderArea>
+     </Player>
+  </DrawingInfo>
+  <VideoObjects>
+<VideoObject>
+<Id>background_top_2</Id>
+<Name>background_top_2</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>451.0</X>
+<Y>33.0</Y>
+<W>557.0</W>
+<H>58.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>93384</Frame>
+<AbsTime>3115445.666666667</AbsTime>
+<X>451.0</X>
+<Y>33.0</Y>
+<W>557.0</W>
+<H>58.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>background_top_1</Id>
+<Name>background_top_1</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>35.0</X>
+<Y>33.0</Y>
+<W>421.0</W>
+<H>69.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>93384</Frame>
+<AbsTime>3115445.666666667</AbsTime>
+<X>35.0</X>
+<Y>33.0</Y>
+<W>421.0</W>
+<H>69.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>professor_body</Id>
+<Name>professor_body</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>20492</Frame>
+<AbsTime>683749.7333333334</AbsTime>
+<X>21.0</X>
+<Y>364.0</Y>
+<W>92.0</W>
+<H>227.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>mimio_bottom</Id>
+<Name>mimio_bottom</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>37.0</X>
+<Y>518.0</Y>
+<W>360.0</W>
+<H>52.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>20492</Frame>
+<AbsTime>683749.7333333334</AbsTime>
+<X>37.0</X>
+<Y>518.0</Y>
+<W>360.0</W>
+<H>52.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>93384</Frame>
+<AbsTime>3115445.666666667</AbsTime>
+<X>37.0</X>
+<Y>518.0</Y>
+<W>360.0</W>
+<H>52.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>mimio_left</Id>
+<Name>mimio_left</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>25.0</X>
+<Y>248.0</Y>
+<W>42.0</W>
+<H>331.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>93384</Frame>
+<AbsTime>3115445.666666667</AbsTime>
+<X>25.0</X>
+<Y>248.0</Y>
+<W>42.0</W>
+<H>331.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>background_bottom</Id>
+<Name>background_bottom</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>34.0</X>
+<Y>552.0</Y>
+<W>972.0</W>
+<H>33.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>93384</Frame>
+<AbsTime>3115445.666666667</AbsTime>
+<X>34.0</X>
+<Y>552.0</Y>
+<W>972.0</W>
+<H>33.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+  </VideoObjects>
+  <VideoSegments>
+    <VideoSegment>
+        <Start>0</Start>
+        <End>10394</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>10394</Start>
+        <End>21013</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>21013</Start>
+        <End>26086</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>26086</Start>
+        <End>31592</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>31592</Start>
+        <End>37609</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>37609</Start>
+        <End>45661</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>45661</Start>
+        <End>59236</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>59236</Start>
+        <End>71008</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>71008</Start>
+        <End>93438</End>
+    </VideoSegment>
+  </VideoSegments>
+  <VideoKeyFrames>
+    <VideoKeyFrame>
+       <Index>9165</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>20492</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>25418</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>31156</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>36445</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>44627</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>57988</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>66226</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>93244</Index>
+    </VideoKeyFrame>
+  </VideoKeyFrames>
+</Annotations>

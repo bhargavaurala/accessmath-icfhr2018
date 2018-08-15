@@ -1,0 +1,657 @@
+<Annotations>
+ <KeyFrames>
+<KeyFrame>
+  <Index>9412</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>116</X>
+     <Y>146</Y>
+     <W>650</W>
+     <H>430</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>194</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1228</X>
+     <Y>310</Y>
+     <W>252</W>
+     <H>150</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>982</X>
+     <Y>282</Y>
+     <W>224</W>
+     <H>430</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>19552</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>117</X>
+     <Y>146</Y>
+     <W>650</W>
+     <H>430</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>194</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1229</X>
+     <Y>310</Y>
+     <W>252</W>
+     <H>150</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>153</X>
+     <Y>565</Y>
+     <W>544</W>
+     <H>145</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>160</X>
+     <Y>673</Y>
+     <W>136</W>
+     <H>61</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>747</X>
+     <Y>379</Y>
+     <W>427</W>
+     <H>233</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1152</X>
+     <Y>528</Y>
+     <W>331</W>
+     <H>304</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1553</X>
+     <Y>576</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>23276</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>116</X>
+     <Y>145</Y>
+     <W>650</W>
+     <H>430</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>193</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1229</X>
+     <Y>309</Y>
+     <W>252</W>
+     <H>150</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>152</X>
+     <Y>564</Y>
+     <W>544</W>
+     <H>145</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>747</X>
+     <Y>378</Y>
+     <W>427</W>
+     <H>233</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1152</X>
+     <Y>527</Y>
+     <W>331</W>
+     <H>304</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>941</X>
+     <Y>277</Y>
+     <W>269</W>
+     <H>124</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>174</X>
+     <Y>681</Y>
+     <W>440</W>
+     <H>139</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>610</X>
+     <Y>652</Y>
+     <W>469</W>
+     <H>269</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1553</X>
+     <Y>575</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>25619</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>117</X>
+     <Y>146</Y>
+     <W>650</W>
+     <H>430</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>194</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1230</X>
+     <Y>310</Y>
+     <W>252</W>
+     <H>150</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>153</X>
+     <Y>565</Y>
+     <W>544</W>
+     <H>145</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>748</X>
+     <Y>379</Y>
+     <W>427</W>
+     <H>233</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1554</X>
+     <Y>576</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>942</X>
+     <Y>278</Y>
+     <W>269</W>
+     <H>124</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>175</X>
+     <Y>681</Y>
+     <W>440</W>
+     <H>139</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>611</X>
+     <Y>653</Y>
+     <W>469</W>
+     <H>269</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1058</X>
+     <Y>620</Y>
+     <W>465</W>
+     <H>145</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>33631</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>195</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>96</X>
+     <Y>647</Y>
+     <W>507</W>
+     <H>239</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>571</X>
+     <Y>141</Y>
+     <W>55</W>
+     <H>520</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>182</X>
+     <Y>364</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>132</X>
+     <Y>141</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1555</X>
+     <Y>577</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>34251</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1463</X>
+     <Y>195</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>96</X>
+     <Y>647</Y>
+     <W>507</W>
+     <H>239</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>571</X>
+     <Y>135</Y>
+     <W>55</W>
+     <H>520</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>182</X>
+     <Y>364</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>131</X>
+     <Y>141</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1554</X>
+     <Y>577</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>36949</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1463</X>
+     <Y>194</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>96</X>
+     <Y>646</Y>
+     <W>507</W>
+     <H>239</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>573</X>
+     <Y>621</Y>
+     <W>26</W>
+     <H>35</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>96</X>
+     <Y>646</Y>
+     <W>507</W>
+     <H>239</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>181</X>
+     <Y>363</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>131</X>
+     <Y>140</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>562</X>
+     <Y>111</Y>
+     <W>498</W>
+     <H>245</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1554</X>
+     <Y>576</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>37264</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1463</X>
+     <Y>194</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>573</X>
+     <Y>621</Y>
+     <W>26</W>
+     <H>35</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>96</X>
+     <Y>646</Y>
+     <W>507</W>
+     <H>239</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>181</X>
+     <Y>363</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>509</X>
+     <Y>411</Y>
+     <W>85</W>
+     <H>70</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>131</X>
+     <Y>140</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>562</X>
+     <Y>111</Y>
+     <W>498</W>
+     <H>245</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1554</X>
+     <Y>576</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>42140</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1464</X>
+     <Y>195</Y>
+     <W>456</W>
+     <H>404</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>182</X>
+     <Y>364</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>510</X>
+     <Y>412</Y>
+     <W>85</W>
+     <H>70</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>132</X>
+     <Y>141</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>563</X>
+     <Y>112</Y>
+     <W>498</W>
+     <H>245</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>97</X>
+     <Y>650</Y>
+     <W>493</W>
+     <H>274</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>591</X>
+     <Y>647</Y>
+     <W>336</W>
+     <H>144</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1555</X>
+     <Y>577</Y>
+     <W>260</W>
+     <H>182</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>46487</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>183</X>
+     <Y>364</Y>
+     <W>338</W>
+     <H>288</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>511</X>
+     <Y>412</Y>
+     <W>85</W>
+     <H>70</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>133</X>
+     <Y>141</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>563</X>
+     <Y>112</Y>
+     <W>498</W>
+     <H>245</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>98</X>
+     <Y>650</Y>
+     <W>493</W>
+     <H>274</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>592</X>
+     <Y>647</Y>
+     <W>336</W>
+     <H>144</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1526</X>
+     <Y>115</Y>
+     <W>394</W>
+     <H>641</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>48409</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>133</X>
+     <Y>140</Y>
+     <W>435</W>
+     <H>208</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>563</X>
+     <Y>111</Y>
+     <W>498</W>
+     <H>245</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1526</X>
+     <Y>114</Y>
+     <W>394</W>
+     <H>641</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1549</X>
+     <Y>742</Y>
+     <W>363</W>
+     <H>62</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>65960</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>1526</X>
+     <Y>113</Y>
+     <W>394</W>
+     <H>641</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1550</X>
+     <Y>741</Y>
+     <W>363</W>
+     <H>62</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>84</X>
+     <Y>181</Y>
+     <W>469</W>
+     <H>620</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>605</X>
+     <Y>125</Y>
+     <W>48</W>
+     <H>805</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>693</X>
+     <Y>132</Y>
+     <W>469</W>
+     <H>197</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>658</X>
+     <Y>510</Y>
+     <W>573</W>
+     <H>305</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>699</X>
+     <Y>345</Y>
+     <W>368</W>
+     <H>163</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1220</X>
+     <Y>135</Y>
+     <W>62</W>
+     <H>796</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1279</X>
+     <Y>167</Y>
+     <W>245</W>
+     <H>281</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1275</X>
+     <Y>449</Y>
+     <W>331</W>
+     <H>82</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>74187</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>84</X>
+     <Y>181</Y>
+     <W>469</W>
+     <H>620</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>605</X>
+     <Y>126</Y>
+     <W>48</W>
+     <H>805</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>693</X>
+     <Y>132</Y>
+     <W>469</W>
+     <H>197</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>699</X>
+     <Y>345</Y>
+     <W>368</W>
+     <H>163</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>658</X>
+     <Y>510</Y>
+     <W>573</W>
+     <H>305</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1220</X>
+     <Y>135</Y>
+     <W>62</W>
+     <H>796</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1322</X>
+     <Y>148</Y>
+     <W>598</W>
+     <H>276</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1387</X>
+     <Y>421</Y>
+     <W>533</W>
+     <H>393</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1257</X>
+     <Y>658</Y>
+     <W>169</W>
+     <H>172</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+ </KeyFrames>
+</Annotations>

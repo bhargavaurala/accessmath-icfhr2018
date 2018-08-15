@@ -1,0 +1,137 @@
+<Annotations>
+ <KeyFrames>
+<KeyFrame>
+  <Index>11319</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>74</X>
+     <Y>124</Y>
+     <W>538</W>
+     <H>786</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1456</X>
+     <Y>298</Y>
+     <W>450</W>
+     <H>162</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>599</X>
+     <Y>506</Y>
+     <W>654</W>
+     <H>240</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>627</X>
+     <Y>136</Y>
+     <W>824</W>
+     <H>366</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>21335</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>598</X>
+     <Y>508</Y>
+     <W>654</W>
+     <H>240</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>82</X>
+     <Y>334</Y>
+     <W>518</W>
+     <H>540</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>626</X>
+     <Y>138</Y>
+     <W>824</W>
+     <H>366</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>618</X>
+     <Y>182</Y>
+     <W>40</W>
+     <H>130</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1455</X>
+     <Y>300</Y>
+     <W>450</W>
+     <H>162</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>87</X>
+     <Y>157</Y>
+     <W>572</W>
+     <H>174</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>26846</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>627</X>
+     <Y>137</Y>
+     <W>824</W>
+     <H>366</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>634</X>
+     <Y>502</Y>
+     <W>480</W>
+     <H>302</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>88</X>
+     <Y>326</Y>
+     <W>532</W>
+     <H>578</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>88</X>
+     <Y>156</Y>
+     <W>572</W>
+     <H>174</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>1456</X>
+     <Y>299</Y>
+     <W>450</W>
+     <H>162</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>43565</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>912</X>
+     <Y>130</Y>
+     <W>916</W>
+     <H>296</H>
+</KeyFramePortion>
+<KeyFramePortion>
+     <X>42</X>
+     <Y>90</Y>
+     <W>806</W>
+     <H>820</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+<KeyFrame>
+  <Index>48315</Index>
+  <Portions>
+<KeyFramePortion>
+     <X>130</X>
+     <Y>124</Y>
+     <W>688</W>
+     <H>408</H>
+</KeyFramePortion>
+  </Portions>
+</KeyFrame>
+ </KeyFrames>
+</Annotations>

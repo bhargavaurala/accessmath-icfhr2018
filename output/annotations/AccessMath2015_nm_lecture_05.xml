@@ -1,0 +1,431 @@
+<Annotations>
+  <Database>AccessMath2015</Database>
+  <Lecture>NM_lecture_05</Lecture>
+  <Filename>output/annotations/AccessMath2015_nm_lecture_05.xml</Filename>
+  <VideoFiles>
+  <VideoFile>test_data/lectures/NM_Lecture_05/AccessMath_NM_lecture_05_part_01.MTS</VideoFile>
+  <VideoFile>test_data/lectures/NM_Lecture_05/AccessMath_NM_lecture_05_part_02.MTS</VideoFile>
+  <VideoFile>test_data/lectures/NM_Lecture_05/AccessMath_NM_lecture_05_part_03.MTS</VideoFile>
+  </VideoFiles>
+  <DrawingInfo>
+     <Canvas>
+         <X>10</X>
+         <Y>60</Y>
+         <W>1040</W>
+         <H>620</H>
+     </Canvas>
+     <Player>
+         <ControlArea>
+             <X>50</X>
+             <Y>100</Y>
+             <W>960</W>
+             <H>540</H>
+         </ControlArea>
+         <RenderArea>
+             <X>50.0</X>
+             <Y>100.0</Y>
+             <W>960</W>
+             <H>540</H>
+         </RenderArea>
+     </Player>
+  </DrawingInfo>
+  <VideoObjects>
+<VideoObject>
+<Id>background_top</Id>
+<Name>background_top</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>34</X>
+<Y>31</Y>
+<W>976</W>
+<H>68</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>89536</Frame>
+<AbsTime>2986750.433333333</AbsTime>
+<X>34</X>
+<Y>31</Y>
+<W>976</W>
+<H>68</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>background_bottom_left</Id>
+<Name>background_bottom_left</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>31.0</X>
+<Y>523.0</Y>
+<W>599.0</W>
+<H>64.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>17563</Frame>
+<AbsTime>586018.7666666667</AbsTime>
+<X>31.0</X>
+<Y>523.0</Y>
+<W>599.0</W>
+<H>64.0</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>89536</Frame>
+<AbsTime>2986750.433333333</AbsTime>
+<X>31.0</X>
+<Y>523.0</Y>
+<W>599.0</W>
+<H>64.0</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>background_bottom_right</Id>
+<Name>background_bottom_right</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>0</Frame>
+<AbsTime>0.0</AbsTime>
+<X>628</X>
+<Y>516</Y>
+<W>381</W>
+<H>71</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>17563</Frame>
+<AbsTime>586018.7666666667</AbsTime>
+<X>628</X>
+<Y>516</Y>
+<W>381</W>
+<H>71</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>89536</Frame>
+<AbsTime>2986750.433333333</AbsTime>
+<X>628</X>
+<Y>516</Y>
+<W>381</W>
+<H>71</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+<VideoObject>
+<Id>eraser</Id>
+<Name>eraser</Name>
+<VideoObjectLocations>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>12693</Frame>
+<AbsTime>423523.10000000003</AbsTime>
+<X>129</X>
+<Y>512</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>0</Visible>
+<Frame>17563</Frame>
+<AbsTime>586018.7666666667</AbsTime>
+<X>129</X>
+<Y>512</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>23223</Frame>
+<AbsTime>774874.1</AbsTime>
+<X>179</X>
+<Y>510</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>25596</Frame>
+<AbsTime>854053.2000000001</AbsTime>
+<X>365</X>
+<Y>509</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>31708</Frame>
+<AbsTime>1057990.2666666666</AbsTime>
+<X>880</X>
+<Y>503</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>42862</Frame>
+<AbsTime>1430162.0666666667</AbsTime>
+<X>614</X>
+<Y>506</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>50424</Frame>
+<AbsTime>1682480.8</AbsTime>
+<X>572</X>
+<Y>510</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>52973</Frame>
+<AbsTime>1767532.4333333333</AbsTime>
+<X>572</X>
+<Y>510</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>63220</Frame>
+<AbsTime>2108673.2333333334</AbsTime>
+<X>204</X>
+<Y>508</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>65610</Frame>
+<AbsTime>2188419.5666666664</AbsTime>
+<X>590</X>
+<Y>508</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>66231</Frame>
+<AbsTime>2209140.2666666666</AbsTime>
+<X>498</X>
+<Y>509</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>66966</Frame>
+<AbsTime>2233664.7666666666</AbsTime>
+<X>590</X>
+<Y>506</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>67181</Frame>
+<AbsTime>2240838.6</AbsTime>
+<X>590</X>
+<Y>506</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>68583</Frame>
+<AbsTime>2287618.6666666665</AbsTime>
+<X>590</X>
+<Y>506</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>72873</Frame>
+<AbsTime>2430761.6666666665</AbsTime>
+<X>159</X>
+<Y>510</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>74323</Frame>
+<AbsTime>2479143.333333333</AbsTime>
+<X>626</X>
+<Y>508</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>81728</Frame>
+<AbsTime>2726223.5</AbsTime>
+<X>623</X>
+<Y>507</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>89440</Frame>
+<AbsTime>2983547.2333333334</AbsTime>
+<X>341</X>
+<Y>509</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+<VideoObjectLocation>
+<Visible>1</Visible>
+<Frame>89536</Frame>
+<AbsTime>2986750.433333333</AbsTime>
+<X>341</X>
+<Y>509</Y>
+<W>68</W>
+<H>35</H>
+</VideoObjectLocation>
+</VideoObjectLocations>
+</VideoObject>
+  </VideoObjects>
+  <VideoSegments>
+    <VideoSegment>
+        <Start>0</Start>
+        <End>12832</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>12832</Start>
+        <End>18049</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>18049</Start>
+        <End>23770</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>23770</Start>
+        <End>26025</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>26025</Start>
+        <End>32260</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>32260</Start>
+        <End>44368</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>44368</Start>
+        <End>50494</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>50494</Start>
+        <End>53737</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>53737</Start>
+        <End>64393</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>64393</Start>
+        <End>65982</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>65982</Start>
+        <End>66793</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>66793</Start>
+        <End>67056</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>67056</Start>
+        <End>67957</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>67957</Start>
+        <End>69319</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>69319</Start>
+        <End>73760</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>73760</Start>
+        <End>75372</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>75372</Start>
+        <End>82365</End>
+    </VideoSegment>
+    <VideoSegment>
+        <Start>82365</Start>
+        <End>89712</End>
+    </VideoSegment>
+  </VideoSegments>
+  <VideoKeyFrames>
+    <VideoKeyFrame>
+       <Index>12693</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>17563</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>23223</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>25596</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>31708</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>42862</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>50424</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>52973</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>63220</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>65610</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>66231</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>66966</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>67181</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>68583</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>72873</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>74323</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>81728</Index>
+    </VideoKeyFrame>
+    <VideoKeyFrame>
+       <Index>89440</Index>
+    </VideoKeyFrame>
+  </VideoKeyFrames>
+</Annotations>
