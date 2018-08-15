@@ -66,15 +66,19 @@ export PYTHONPATH=/path/to/ssd.pytorch/:$PYTHONPATH
 
 - Run the following scripts:
 
--- Export video into still frames for generating training samples for text detector by running OR download from [here]() and place the `AccessMathVOC` folder in project root. 
+-- Export video into still frames 
 ```
-python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d "training, testing"
+python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml -d "training, testing"
 ```
 -- Generate person detection bounding boxes on training set and add to annotations
 
 ```
 python gt_PD_01_detect_speaker.py test_data/databases/db_AccessMath2015.xml -d training
 python gt_PD_02_add_speaker_to_annotations.py test_data/databases/db_AccessMath2015.xml -d training
+```
+-- Generate ground truth annotations by removing text region annotations that are occluded by speaker
+```
+python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d training
 ```
 -- Generate trained model using the procedure described in [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes/blob/master/README.md)
 
