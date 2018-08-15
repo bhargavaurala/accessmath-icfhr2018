@@ -65,7 +65,6 @@ export PYTHONPATH=/path/to/ssd.pytorch/:$PYTHONPATH
 python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml -d "training, testing"
 ```
 -- Generate person detection bounding boxes on training set and add to annotations
-
 ```
 python gt_PD_01_detect_speaker.py test_data/databases/db_AccessMath2015.xml -d training
 python gt_PD_02_add_speaker_to_annotations.py test_data/databases/db_AccessMath2015.xml -d training
@@ -74,6 +73,8 @@ python gt_PD_02_add_speaker_to_annotations.py test_data/databases/db_AccessMath2
 ```
 python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d training
 ```
+-- Alternatively, you can download the prepared training data for the Handwritten Content Detector from [here]()
+
 -- Generate trained model using the procedure described in [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes/blob/master/README.md)
 
 -- Follow procedure to reproduce Table 2 starting with `01_text_detection.py` 
