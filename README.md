@@ -12,8 +12,6 @@ More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlv
 
 - Download our Handwritten Content Detector [model](https://buffalo.box.com/s/elz4wj1favsa24apcjiz0co7ash5qry6) and structure [file](https://buffalo.box.com/s/cb0m7nr1dcmyt9610642yvzncf3ectqd) and place in `models/text_detection`.
 
-- Download the SSD Model for object detection on VOC classes from [here]() and place in `models/person_detection`
-
 - Setup [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes). If needed, generate training LMDBs.
 
 - Run the following scripts:
@@ -59,7 +57,7 @@ python pre_ST3D_v2.0_08_generate_summary.py test_data/databases/db_AccessMath201
 
 ## To retrain on custom data:
 
-- Download the SSD [model]() for VOC object class detection and place in `models/person_detection`
+- Download the SSD [model](https://buffalo.box.com/s/3rklcvppkuw63jkp4538nbf6u6gj9zqm) for VOC object class detection and place in `models/person_detection`
 
 - Clone the [SSD PyTorch] repository and set it up. Add this directory to `$PYTHONPATH`
 ```
