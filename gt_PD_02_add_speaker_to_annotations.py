@@ -36,7 +36,8 @@ def process_input(process, input_data):
     input_main_file = input_prefix + ".xml"
 
     output_dir = process.database.output_annotations + "_ext"
-    os.makedirs(output_dir, exist_ok=True)
+    if not os.path.isdir(output_dir):
+        os.makedirs(output_dir)
 
     output_filename = output_dir + "/" + annotation_suffix + ".xml"
 
