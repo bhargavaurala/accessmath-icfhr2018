@@ -365,7 +365,7 @@ class TextAnnotationExporter:
         return annotation
 
     @staticmethod
-    def FromAnnotationXML(export_mode, database, lecture, export_dir):
+    def FromAnnotationXML(export_mode, database, lecture, export_dir, export_images=False):
         # Load video annotations ....
         # ... file name ...
         annotation_suffix = database.name + "_" + lecture.title.lower()
@@ -403,7 +403,7 @@ class TextAnnotationExporter:
             current_video_objects.append(video_object)
 
         text_exporter = TextAnnotationExporter(export_mode, current_video_objects, canvas_loc, render_loc, render_size,
-                                               export_dir)
+                                               export_dir, export_images=export_images)
 
         return text_exporter
 
