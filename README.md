@@ -24,19 +24,13 @@ python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.x
 ```
 python pre_ST3D_v2.0_01_text_detection.py test_data/databases/db_AccessMath2015.xml -d testing
 ```
--- Run stability analysis on detected handwritten regions
+-- Run coarse-grained temporal analysis and reconstruction (bringing back occluded content - part 2 of Table 2 - recommended)
 ```
 python pre_ST3D_v2.0_02_td_stability.py test_data/databases/db_AccessMath2015.xml -d testing
-```
--- Run coarse-grained temporal analysis
-```
 python pre_ST3D_v2.0_03_td_bbox_grouping.py test_data/databases/db_AccessMath2015.xml -d testing
-```
--- Run binarization with reconstruction (bringing back occluded content - part 2 of Table 2 - recommended)
-```
 python pre_ST3D_v2.0_04_td_ref_binarize.py test_data/databases/db_AccessMath2015.xml -d testing
 ```
-   OR (without reconstruction part 1 of Table 2)
+   OR without reconstruction (part 1 of Table 2)
 ```
 python pre_ST3D_v2.0_04_td_raw_binarize.py test_data/databases/db_AccessMath2015.xml -d testing
 ```
