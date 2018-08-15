@@ -66,7 +66,7 @@ export PYTHONPATH=/path/to/ssd.pytorch/:$PYTHONPATH
 
 - Run the following scripts:
 
--- Export video into still frames for generating training samples for text detector by running 
+-- Export video into still frames for generating training samples for text detector by running OR download from here and place the `AccessMathVOC` folder in project root. 
 ```
 python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d "training, testing"
 ```
