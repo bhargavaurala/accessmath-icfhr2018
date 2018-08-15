@@ -18,7 +18,7 @@ More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlv
 
 -- Export video into still frames for generating training samples for text detector by running 
 ```
-python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml
+python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.xml -d testing
 ```
 -- Run Text Detection on exported still testing video frames
 ```
