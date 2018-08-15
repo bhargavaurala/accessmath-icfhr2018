@@ -12,7 +12,7 @@ class TextAnnotationExporter:
     ExportModeAllPerFrame = 0
     ExportModeUniqueBoxes = 1
 
-    def __init__(self, export_mode,  video_objects, canvas_loc, render_loc, render_size, export_dir):
+    def __init__(self, export_mode,  video_objects, canvas_loc, render_loc, render_size, export_dir, export_images=False):
         self.export_mode = export_mode
         self.img_width = None
         self.img_height = None
@@ -29,8 +29,9 @@ class TextAnnotationExporter:
 
         # directory where results will be stored ...
         self.export_dir = export_dir
-        self.export_img_dir = export_dir + "/images"
-        self.export_xml_dir = export_dir + "/xml"
+        self.export_img_dir = export_dir + "/JPEGImages"
+        self.export_xml_dir = export_dir + "/Annotations"
+        self.export_images= export_images # flag to control if images need to be exported
 
         self.video_objects = video_objects
 
@@ -170,7 +171,8 @@ class TextAnnotationExporter:
         xml_tree.write(out_xml_filename)
 
         # ... save image ...
-        cv2.imwrite(out_img_filename, frame)
+        if self.export_images:
+            cv2.imwrite(out_img_filename, frame)
 
     def export_unique_objects(self, frame, frame_idx, not_occluded_bboxes):
         # check which objects are initially visible and can be exported (not exported before)
