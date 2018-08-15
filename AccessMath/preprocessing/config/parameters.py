@@ -120,6 +120,7 @@ class Parameters:
     Output_ROI_Detection = "ROI_mask_"
 
     Output_FrameExport = "AccessMathVOC/"  # make sure to add a trailing backslash if you change this
+    Output_FrameExport_Mode = 0
     Output_FrameExport_ImgExtension = 'jpg'  # Extension, without leading dot
     Output_PersonDetection = "person_detection_"
     Output_TextDetection = "text_detection_"
