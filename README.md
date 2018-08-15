@@ -47,7 +47,7 @@ python pre_ST3D_v2.0_07_vid_segmentation.py test_data/databases/db_AccessMath201
 ```
 python pre_ST3D_v2.0_08_generate_summary.py test_data/databases/db_AccessMath2015.xml -d testing
 ```
--- The final summary keyframes can be found in `output/`
+-- The final summary keyframes can be found in `output/summaries`
 
 ## To retrain on custom data:
 
