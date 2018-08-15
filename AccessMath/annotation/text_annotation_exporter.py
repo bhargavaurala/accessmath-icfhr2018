@@ -74,8 +74,10 @@ class TextAnnotationExporter:
 
         # prepare export root ...
         if prepare_dirs:
-            os.makedirs(self.export_img_dir, exist_ok=True)
-            os.makedirs(self.export_xml_dir, exist_ok=True)
+            if not os.path.isdir(self.export_img_dir):
+                os.makedirs(self.export_img_dir)
+            if not os.path.isdir(self.export_xml_dir):
+                os.makedirs(self.export_xml_dir)
 
     def getWorkName(self):
         return "Text Annotation Exporter"
