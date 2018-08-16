@@ -6,7 +6,7 @@ Online lecture videos are a valuable resource for students across the world. The
 
 More details can be found in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlvwc762a65tsimmnyn7d2).
 
-For any issues, please use the github issues page or contact me at buralako <at> buffalo <dot> edu.
+For any issues, please use the github issues page or contact me at buralako _at_ buffalo _dot_ edu.
 
 ## To reproduce the results in the paper (Table 2):
 
