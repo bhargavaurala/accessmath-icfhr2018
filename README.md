@@ -37,6 +37,7 @@ python pre_ST3D_v2.0_00_export_frames.py test_data/databases/db_AccessMath2015.x
 -- Run Text Detection on exported still testing video frames
 ```
 python pre_ST3D_v2.0_01_text_detection.py test_data/databases/db_AccessMath2015.xml -d testing
+GPU ID can be set in AccessMath/preprocessing/config/parameters.py GPU_TextDetection (0, by default)
 ```
 -- Run coarse-grained temporal analysis and reconstruction (bringing back occluded content - part 2 of Table 2 - recommended)
 ```
@@ -87,7 +88,7 @@ python gt_PD_02_add_speaker_to_annotations.py test_data/databases/db_AccessMath2
 ```
 python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d training
 ```
--- Alternatively, you can download the prepared training data for the Handwritten Content Detector from [here]()
+-- Alternatively, you can download the prepared training data for the Handwritten Content Detector from [here](). Download the 3-part zip archive and extract into a folder called AccessMathVOC and place in project root.
 
 -- Generate trained model using the procedure described in [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes/blob/master/README.md)
 
