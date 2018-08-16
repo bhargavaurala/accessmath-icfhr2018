@@ -51,7 +51,7 @@ python pre_ST3D_v2.0_08_generate_summary.py test_data/databases/db_AccessMath201
 ```
 -- The final summary keyframes can be found in `output/summaries`
 
-## To retrain on custom data:
+## To retrain handwritten content detector from scratch:
 
 - Download the SSD [model](https://buffalo.box.com/s/3rklcvppkuw63jkp4538nbf6u6gj9zqm) for VOC object class detection and place in `models/person_detection`
 
