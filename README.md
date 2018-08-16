@@ -93,3 +93,12 @@ python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_Acce
 
 -- Follow procedure to reproduce Table 2 starting with `01_text_detection.py` 
 
+## To annotate custom video data
+
+The gt_annotator.py tool is the initial annotation tool. Use it to mark the ideal video segments, select key-frames per segment, and also to label elements on each key-frame. Note that precision tools and interpolation capabilities are provided to make the labeling of moving objects easier as well. 
+
+Usage: python gt_annotator.py database -l lecture
+Where
+        database        = Database metadata file
+        lecture         = Lecture video to process
+
