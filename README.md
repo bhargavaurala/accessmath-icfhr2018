@@ -88,7 +88,7 @@ python gt_PD_02_add_speaker_to_annotations.py test_data/databases/db_AccessMath2
 ```
 python pre_ST3D_v2.0_00_export_frames_annotations.py test_data/databases/db_AccessMath2015.xml -d training
 ```
--- Alternatively, you can download the prepared training data for the Handwritten Content Detector from [here](). Download the 3-part zip archive and extract into a folder called AccessMathVOC and place in project root.
+-- Alternatively, you can download the prepared training data for the Handwritten Content Detector from [here](https://buffalo.box.com/s/6gklgrotfd5drbxvdw2xtrt9i2ldmt01). Download the 3-part zip archive and extract into a folder called AccessMathVOC and place in project root.
 
 -- Generate trained model using the procedure described in [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes/blob/master/README.md)
 
