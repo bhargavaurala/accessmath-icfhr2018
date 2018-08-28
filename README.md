@@ -6,7 +6,7 @@ Online lecture videos are a valuable resource for students across the world. The
 
 This code release contains the necessary scripts for lecture video summarization as described in our [paper](https://buffalo.box.com/s/nhjjwpj1j4tlvwc762a65tsimmnyn7d2). The code is distributed under GNU Public License.
 
-This work is a progression of the AccessMath Project carried out at [DPRL](https://www.cs.rit.edu/~dprl/Software.html#accessmath).
+This work is a progression of the [AccessMath](https://www.cs.rit.edu/~dprl/Software.html#accessmath) Project carried out at [DPRL](https://www.cs.rit.edu/~dprl/Projects.html).
 
 For any issues, please use the github issues page or contact me at buralako _at_ buffalo _dot_ edu.
 
