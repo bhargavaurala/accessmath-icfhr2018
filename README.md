@@ -27,15 +27,16 @@ Other main libraries required by our scripts include:
 - Download AccessMath [Dataset](https://buffalo.box.com/s/usa30o2o0oojcslfrkxfyogvbqdedktj) and copy into project root.
 
 - Download our Handwritten Content Detector [model](https://buffalo.box.com/s/elz4wj1favsa24apcjiz0co7ash5qry6) and structure [file](https://buffalo.box.com/s/cb0m7nr1dcmyt9610642yvzncf3ectqd) and place in `models/text_detection`.
-  In the deploy.prototxt make sure to customize paths in the `save_output_param` as required.
-  ``` save_output_param {
+  In the structure file (`deploy.prototxt`) make sure to customize paths in the `save_output_param` as required.
+```
+    save_output_param {
       output_directory: "results/text/longer_conv_300x300/Main"
       output_name_prefix: "comp4_det_test_"
       output_format: "VOC"
       label_map_file: "data/AccessMath/labelmap_accessmath.prototxt"
       num_test_image: 2497
     }
-  ```
+```
 
 - Setup [AccessMath-TextBoxes](https://github.com/bhargavaurala/accessmath-textboxes). If needed, generate training LMDBs.
 
